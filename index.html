@@ -147,7 +147,7 @@
     width:32px;
     height:32px;
     border-radius:9px;
-    display:inline-flex;
+    disp:inline-flex;
     align-items:center;
     justify-content:center;
     font-size:1rem;
@@ -169,7 +169,7 @@
   }
   .subsection-block + .subsection-block{ margin-top:14px; }
   .subsection-label{
-    display:flex;
+    disp:flex;
     align-items:center;
     gap:8px;
     font-weight:700;
@@ -198,7 +198,7 @@
   .menu-card.dragging{ opacity:.4; }
   .menu-card.drop-target{ box-shadow:0 0 0 2px var(--accent) inset; }
   .menu-card-header{
-    display:flex;
+    disp:flex;
     justify-content:space-between;
     align-items:center;
     padding:12px 14px;
@@ -213,7 +213,7 @@
   }
   .menu-card-header .drag-handle:active{ cursor:grabbing; }
   .menu-index-badge{
-    display:inline-flex;
+    disp:inline-flex;
     align-items:center;
     justify-content:center;
     min-width:22px;
@@ -239,7 +239,7 @@
     border-top:1px solid var(--line);
     padding-top:16px;
   }
-  .menu-card-body.hidden{ display:none; }
+  .menu-card-body.hidden{ disp:none; }
   .chevron{
     transition:transform .15s ease;
     color:var(--muted);
@@ -263,7 +263,7 @@
   }
   .drop-item-row{
     position:relative;
-    display:flex;
+    disp:flex;
     gap:8px;
     align-items:center;
     margin-bottom:6px;
@@ -327,7 +327,7 @@
   .btn-outline-secondary:hover{ background:var(--accent-soft); border-color:var(--accent); color:var(--accent); transform:translateY(-1px); }
 
   .reorder-btns{
-    display:flex;
+    disp:flex;
     flex-direction:column;
     gap:2px;
   }
@@ -338,7 +338,7 @@
     border-radius:5px;
     width:22px;
     height:18px;
-    display:flex;
+    disp:flex;
     align-items:center;
     justify-content:center;
     padding:0;
@@ -365,7 +365,7 @@
     box-shadow:var(--shadow-lg);
   }
   .preview-panel-header{
-    display:flex;
+    disp:flex;
     justify-content:space-between;
     align-items:center;
     margin-bottom:14px;
@@ -387,7 +387,7 @@
     box-shadow:var(--shadow-lg);
   }
   .browser-chrome{
-    display:flex;
+    disp:flex;
     align-items:center;
     gap:12px;
     padding:11px 16px;
@@ -395,7 +395,7 @@
     border-bottom:1px solid var(--line);
     border-radius:14px 14px 0 0;
   }
-  .browser-dots{ display:flex; gap:6px; flex-shrink:0; }
+  .browser-dots{ disp:flex; gap:6px; flex-shrink:0; }
   .browser-dot{ width:10px; height:10px; border-radius:50%; }
   .browser-dot.red{ background:#ec6a5e; }
   .browser-dot.yellow{ background:#f4bf50; }
@@ -408,7 +408,7 @@
     padding:5px 12px;
     font-size:.78rem;
     color:var(--muted);
-    display:flex;
+    disp:flex;
     align-items:center;
     gap:7px;
     overflow:hidden;
@@ -425,7 +425,7 @@
   /* Fullscreen preview mode */
   #previewMount:fullscreen{
     background:#fff;
-    display:flex;
+    disp:flex;
     align-items:flex-start;
     justify-content:stretch;
     padding:0;
@@ -449,7 +449,7 @@
   }
   .code-box::-webkit-scrollbar-thumb{ background:#2a2f4a; }
   .icon-picker-grid{
-    display:grid;
+    disp:grid;
     grid-template-columns:repeat(auto-fill, minmax(38px,1fr));
     gap:6px;
     max-height:180px;
@@ -475,7 +475,7 @@
     color:var(--accent);
   }
   .swatch-row{
-    display:flex;
+    disp:flex;
     gap:8px;
     flex-wrap:wrap;
   }
@@ -502,11 +502,11 @@
     font-size:.88rem;
     font-weight:500;
     box-shadow:var(--shadow-lg);
-    display:none;
+    disp:none;
     z-index:2000;
   }
   .social-link-row{
-    display:flex;
+    disp:flex;
     align-items:center;
     gap:10px;
     background:#fbfcfe;
@@ -515,7 +515,7 @@
     padding:7px 10px;
   }
   .social-link-toggle{
-    display:flex;
+    disp:flex;
     align-items:center;
     gap:8px;
     flex:0 0 128px;
@@ -523,7 +523,7 @@
     padding-left:2.4em;
   }
   .social-link-toggle .form-check-label{
-    display:flex;
+    disp:flex;
     align-items:center;
     gap:6px;
     white-space:nowrap;
@@ -533,7 +533,7 @@
     border-color:var(--line);
   }
   .page-download-row{
-    display:flex;
+    disp:flex;
     justify-content:space-between;
     align-items:center;
     border:1px solid var(--line);
@@ -550,7 +550,7 @@
 
 <div class="builder-shell">
   <div class="app-header">
-    <div class="app-icon-badge"><i class="bi bi-layout-text-sidebar-reverse"></i></div>
+    <div class="app-icon-badge"><i class="bi bi-out-text-sidebar-reverse"></i></div>
     <div>
       <div class="app-title">Navbar Generator</div>
       <div class="app-sub">Build a custom Bootstrap navbar — menus, dropdowns, icons, colors, all customizable.</div>
@@ -575,7 +575,7 @@
         </div>
         <div class="preview-inner" id="previewMount"><style>
       @media (hover: hover) and (pointer: fine){
-      .hoverfx-underline-slide .nav-link{ position:relative; display:inline-block; }
+      .hoverfx-underline-slide .nav-link{ position:relative; disp:inline-block; }
       .hoverfx-underline-slide .nav-link::before{ content:""; position:absolute; left:0; bottom:2px; width:0; height:2px; background:#dc3545; transition:width .25s ease; }
       .hoverfx-underline-slide .nav-link:hover::before{ width:100%; }
       }
@@ -620,7 +620,7 @@
   </div>
 
   <!-- ================= TOP BAR SETTINGS ================= -->
-  <div class="section-heading"><i class="bi bi-layout-text-window-reverse"></i> Top Bar Settings</div>
+  <div class="section-heading"><i class="bi bi-out-text-window-reverse"></i> Top Bar Settings</div>
   <div class="panel mb-4">
     <div class="panel-title"><i class="bi bi-file-earmark-plus"></i> Top Bar</div>
     <div class="mb-2">
@@ -1236,7 +1236,7 @@
 
 
 <div class="d-flex justify-content-center py-3 my-2">
-   <a class="btn btn-primary" href="https://zahidhasanriyad05-commits.github.io/layout/">Layout</a>
+   <a class="btn btn-primary" target="_blank" href="https://ccpldev2.netlify.app/">Layout Making Option</a>
 </div>
 
 
